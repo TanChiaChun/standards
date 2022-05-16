@@ -12,9 +12,13 @@
     * [Coding](#coding)
 
 ### Coding
+1. Error handling
+    * Exception
+    * Assertion
+    * Logging
+1. Tests
 1. Coding standards
 1. Docs
-1. Tests
 1. Dependencies
 
 ### Project structure
