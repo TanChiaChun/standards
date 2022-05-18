@@ -9,13 +9,17 @@
 1. Design
 1. CI & CD
     * GitHub Actions
-    * [Coding](#coding)
+    * [Coding Auto](#auto)
 
 ### Coding
+
+#### Manual
 1. Error handling
     * Exception
     * Assertion
     * Logging
+
+#### Auto
 1. Tests
 1. Coding standards
 1. Docs
