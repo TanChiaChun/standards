@@ -1,3 +1,8 @@
+$Readme = @(
+    "# Project`n"
+    "## Setup"
+    ""
+) -join "`n"
 $ProjectFolder = Read-Host "Input project folder"
 
 if (Test-Path -Path $ProjectFolder) {
@@ -11,3 +16,4 @@ else {
 }
 
 New-Item -Path $ProjectFolder -Name ".gitignore" -ItemType "file" -Value "`n"
+New-Item -Path $ProjectFolder -Name "README.md" -ItemType "file" -Value $Readme
