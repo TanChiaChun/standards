@@ -12,7 +12,7 @@ if (Test-Path -Path $ProjectFolder) {
     }
 }
 else {
-    New-Item -Name $ProjectFolder -ItemType "directory"
+    New-Item -Path $ProjectFolder -ItemType "directory"
 }
 
 New-Item -Path $ProjectFolder -Name ".gitignore" -ItemType "file" -Value "`n"
