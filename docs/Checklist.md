@@ -2,8 +2,8 @@
 
 ## Project
 1. Repo
-    * Feature branch
     * [Project strcuture](#project-structure)
+    * Feature branch
 1. Project management
     * GitHub Issues
 1. Design
@@ -11,20 +11,20 @@
     * GitHub Actions
     * [Coding Auto](#auto)
 
-### Coding
+### Project structure
+1. *.gitignore*
+1. *README.md*
 
-#### Manual
+## Coding
+
+### Manual
 1. Error handling
     * Exception
     * Assertion
     * Logging
 
-#### Auto
+### Auto
 1. Tests
 1. Coding standards
 1. Docs
 1. Dependencies
-
-### Project structure
-1. *.gitignore*
-1. *README.md*
